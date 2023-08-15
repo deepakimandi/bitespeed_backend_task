@@ -1,4 +1,4 @@
-# Contacts Identification
+# Identity Reconciliation
 
 A web service designed to facilitate contact identification, connecting related contacts and associating them based on email or phone number.
 
@@ -40,7 +40,7 @@ Follow these steps to set up the project locally:
 
 The service has been successfully deployed online using Render.com. Here are the details:
 
-- **Base URL:** [https://contacts-identification.onrender.com](https://contacts-identification.onrender.com)
+- **Base URL:** [https://identity-reconciliation-qgbk.onrender.com](https://identity-reconciliation-qgbk.onrender.com)
 - **API Endpoint:** `/identify`
 
 Feel free to explore and use the service via this URL.
