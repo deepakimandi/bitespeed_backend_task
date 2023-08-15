@@ -1,0 +1,10 @@
+CREATE TABLE Contact (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    phoneNumber VARCHAR(255),
+    email VARCHAR(255),
+    linkedId INT DEFAULT NULL,
+    linkPrecedence ENUM('primary', 'secondary'),
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    deletedAt DATETIME DEFAULT NULL
+);
